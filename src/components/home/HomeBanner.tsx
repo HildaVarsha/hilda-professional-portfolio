@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "../ui";
-import Image from "next/image";
 
 const HomeBanner = () => {
   return (
