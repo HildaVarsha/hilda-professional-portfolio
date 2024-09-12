@@ -11,7 +11,7 @@ type NavBarItem = {
 
 const TopMenuBar = () => {
   return (
-    <div className="w-full bg-white">
+    <div className="w-full bg-white border-b border-slate-400">
       <div className="flex items-center container mx-auto h-24">
         <Image
           src={"/logo.png"}
@@ -27,13 +27,13 @@ const TopMenuBar = () => {
                 key={menu?.id}
                 href={menu?.path}
                 title={menu?.name}
-                className="font-semibold text-zinc-900 hover:text-orange-600"
+                className="font-semibold text-zinc-900 hover:text-red-600 cursor-pointer"
               >
                 {menu?.name}
               </Link>
             ))}
           </div>
-          <Button className="bg-orange-600 text-white font-semibold hover:bg-orange-500">
+          <Button className="bg-red-600 text-white font-semibold hover:bg-orange-500">
             Get Quote
           </Button>
         </div>
