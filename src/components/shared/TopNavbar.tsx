@@ -31,7 +31,7 @@ const TopNavbar = () => {
   return (
     <>
       <div className="flex w-full">
-        <div className="bg-orange-600  text-white flex items-center gap-4 w-full p-2 pl-12">
+        <div className="bg-red-600  text-white flex items-center gap-4 w-full p-2 pl-12">
           <LinkComponent
             href={"/"}
             name={"anchorinformatics@gmail.com"}
