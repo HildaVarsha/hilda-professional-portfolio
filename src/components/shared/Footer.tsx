@@ -75,7 +75,7 @@ const Footer = () => {
       </div>
       <div className="container mx-auto py-8 flex items-center justify-between">
         <p className="text-sm text-slate-300">
-          Copyright © 2023 IT-Soft all rights reserved.
+          Copyright © 2024 IT-Soft all rights reserved.
         </p>
         <Link
           title="Anchor Informatics"
