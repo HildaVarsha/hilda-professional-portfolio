@@ -1,6 +1,7 @@
 import {
   HomeBanner,
   HomeCompanyHistory,
+  HomeLatestNews,
   HomeLatestWorks,
   HomeOurServices,
   HomeTestimonials,
@@ -16,6 +17,7 @@ export default function Home() {
       <HomeWhyChooseUs />
       <HomeLatestWorks />
       <HomeTestimonials />
+      <HomeLatestNews />
     </div>
   );
 }
