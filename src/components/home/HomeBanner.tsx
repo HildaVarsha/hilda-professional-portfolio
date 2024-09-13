@@ -13,7 +13,7 @@ const HomeBanner = () => {
   }, []);
 
   return (
-    <div className="h-full w-full bg-gradient-to-t from-zinc-800 to-zinc-600relative">
+    <div className="h-full w-full bg-gradient-to-t from-zinc-800 to-zinc-600 relative">
       <video
         className=" w-full h-full object-cover"
         src={
@@ -23,7 +23,7 @@ const HomeBanner = () => {
         muted
         loop
       />
-      <div className="container mx-auto h-full flex flex-col items-center justify-center absolute top-4">
+      <div className="container mx-auto h-full flex flex-col items-center justify-center absolute top-[-120px]">
         <h1 data-aos="fade-left" className="font-bold text-3xl text-red-600">
           Your Trusted Agency
         </h1>
@@ -47,7 +47,7 @@ const HomeBanner = () => {
 
       <ShineBorder
         data-aos="fade-right"
-        className="absolute bottom-4 left-4 h-72 w-64 rounded-full"
+        className="absolute bottom-64 left-4 h-72 w-64 rounded-full"
         color={["#ff5733", "#e70909", "#FFBE7B"]}
       >
         <Image
