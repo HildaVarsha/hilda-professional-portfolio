@@ -3,6 +3,7 @@ import {
   HomeCompanyHistory,
   HomeLatestWorks,
   HomeOurServices,
+  HomeTestimonials,
   HomeWhyChooseUs,
 } from "@/components/home";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <HomeOurServices />
       <HomeWhyChooseUs />
       <HomeLatestWorks />
+      <HomeTestimonials />
     </div>
   );
 }
