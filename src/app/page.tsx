@@ -1,6 +1,7 @@
 import {
   HomeBanner,
   HomeCompanyHistory,
+  HomeLatestWorks,
   HomeOurServices,
   HomeWhyChooseUs,
 } from "@/components/home";
@@ -12,6 +13,7 @@ export default function Home() {
       <HomeCompanyHistory />
       <HomeOurServices />
       <HomeWhyChooseUs />
+      <HomeLatestWorks />
     </div>
   );
 }
