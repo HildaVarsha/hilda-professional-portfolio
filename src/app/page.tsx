@@ -2,6 +2,7 @@ import {
   HomeBanner,
   HomeCompanyHistory,
   HomeOurServices,
+  HomeWhyChooseUs,
 } from "@/components/home";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <HomeBanner />
       <HomeCompanyHistory />
       <HomeOurServices />
+      <HomeWhyChooseUs />
     </div>
   );
 }
