@@ -38,7 +38,7 @@ const ContactUsAddress = () => {
       <div className="pt-8 text-slate-700">
         We value open communication and are always here to assist you. Whether
         you have a question about our services, need support with one of our
-        products, or just want to give us feedback, we're ready to help. Our
+        products, or just want to give us feedback, we are ready to help. Our
         team is committed to providing prompt and thorough responses to all
         inquiries. You can reach us through the contact form below or use the
         provided email and phone number for more immediate assistance. We aim to
