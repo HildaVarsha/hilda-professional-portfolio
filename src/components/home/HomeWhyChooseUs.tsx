@@ -3,7 +3,6 @@ import React from "react";
 import ProgressBar from "@ramonak/react-progress-bar";
 import { Card } from "../ui";
 import { AwardIcon } from "lucide-react";
-import NumberTicker from "../magicui/number-ticker";
 import Image from "next/image";
 
 const HomeWhyChooseUs = () => {
