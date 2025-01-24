@@ -23,7 +23,7 @@ const HomeBanner = () => {
         muted
         loop
       />
-      <div className="container mx-auto h-full flex flex-col items-center justify-center absolute top-[-120px]">
+      <div className="container mx-auto h-full flex flex-col items-center justify-center absolute top-4">
         <h1 data-aos="fade-left" className="font-bold text-3xl text-red-600">
           Your Trusted Agency
         </h1>
@@ -45,7 +45,7 @@ const HomeBanner = () => {
         </CoolMode>
       </div>
 
-      <ShineBorder
+      {/* <ShineBorder
         data-aos="fade-right"
         className="absolute bottom-64 left-4 h-72 w-64 rounded-full"
         color={["#ff5733", "#e70909", "#FFBE7B"]}
@@ -59,7 +59,7 @@ const HomeBanner = () => {
           height={100}
           className="object-cover rounded-full h-64 w-full"
         />
-      </ShineBorder>
+      </ShineBorder> */}
     </div>
   );
 };

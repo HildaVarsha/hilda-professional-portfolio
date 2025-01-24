@@ -18,7 +18,7 @@ export default function RootLayout({
         <div className="top-0 fixed w-full z-50">
           <TopNavbar />
         </div>
-        <div className="pt-32 h-full">{children}</div>
+        <div className="pt-26 h-full">{children}</div>
         <Footer />
       </body>
     </html>

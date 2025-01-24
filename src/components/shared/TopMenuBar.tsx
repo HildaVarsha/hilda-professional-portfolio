@@ -12,7 +12,7 @@ type NavBarItem = {
 const TopMenuBar = () => {
   return (
     <div className="w-full bg-white border-b border-slate-400">
-      <div className="flex items-center container mx-auto h-24">
+      <div className="flex items-center container mx-auto h-16">
         <Image
           src={"/logo.png"}
           alt="Anchor Informatics"
